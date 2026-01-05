@@ -15,12 +15,12 @@ public class iffor {
         for (int i = 1; i <= size; i++) {
 
             // ＄を出力
-            for (int j = 1, j <= i, j++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.println("$");
             }
 
             // 改行
-            Syste.out.println();
+            System.out.println();
         }
 
         // スキャナー終了
@@ -50,7 +50,7 @@ public class iffor {
 
             // жを出力
             for (int j = 0; j < size -i; j++) {
-                Syste,.out.println("ж");
+                System.out.println("ж");
             }
 
             // 改行
@@ -72,7 +72,10 @@ public class iffor {
         System.out.print("サイズを入力してください：");
         int size = scanner.nextInt();
 
-        for (int = 0; i < size; i++); {
+        // for文の外で宣言
+        int i;
+
+        for (int i = 0; i < size; i++) {
 
             // 空白
             for (int j = 0; j < i; j++) {
@@ -108,6 +111,7 @@ public class iffor {
         //入力チェックをする（もし、0以下が入力された場合はエラーを返す）
         if (n <= 0) {
             System.out.println("1以上の正の数を入力してください");
+            scanner.close();
             return;
         }
 
