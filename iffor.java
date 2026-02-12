@@ -16,7 +16,7 @@ public class iffor {
 
             // ＄を出力
             for (int j = 1; j <= i; j++) {
-                System.out.println("$");
+                System.out.print("$");
             }
 
             // 改行
@@ -45,12 +45,12 @@ public class iffor {
 
             // 空白を出力
             for (int j = 0; j < i; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
 
             // жを出力
             for (int j = 0; j < size -i; j++) {
-                System.out.println("ж");
+                System.out.print("ж");
             }
 
             // 改行
@@ -79,12 +79,12 @@ public class iffor {
 
             // 空白
             for (int j = 0; j < i; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
 
             // жを出力
             for (int j = 0; j < (size - i) * 2 - 1; j++) {
-                System.out.println("ж");
+                System.out.print("ж");
             }
 
             // 改行
